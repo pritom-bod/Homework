@@ -1,0 +1,169 @@
+.navbar {
+    background-color: #ffffff;
+    padding: 15px 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ff6f61;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff6f61;
+}
+
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
+}
+
+.navbar-toggler-icon {
+    background-image: url("your-custom-icon.svg");
+}
+
+
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+h1, h2, h3, h6 {
+    font-weight: 600;
+    color: #333;
+}
+
+p {
+    color: #555;
+    font-size: 1rem;
+}
+
+.buy-now {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.buy-now:hover {
+    background-color: #e05245;
+}
+
+
+.carousel-inner {
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.carousel-item img {
+    max-height: 400px;
+    object-fit: contain;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #ff6f61;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+#smartphone, #laptop {
+    padding: 60px 0;
+}
+
+#smartphone h1, #laptop h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #ff6f61;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+    height: 250px;
+    object-fit: contain;
+    padding: 20px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+/* Categories Section */
+.category-section {
+    margin-bottom: 80px;
+}
+
+.title-pad {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+}
+
+.categories-border {
+    border-bottom: 10px solid  #FFBB24;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}  
+
+.category-item {
+    padding:  20px 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .col-4 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .carousel-item img {
+        height: 250px;
+    }
+
+    .card img {
+        height: 200px;
+    }
+
+    .category-item {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    p {
+        font-size: 0.9rem;
+    }
+}

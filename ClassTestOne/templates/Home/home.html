@@ -1,0 +1,212 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% load static %}   
+   
+   
+  <!-- Home Section with Carousel -->
+<div class="container" id="home">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            
+            <!-- Carousel Item 1 -->
+            <div class="carousel-item active">
+                <div class="row align-items-center">
+                    <div class="col-md-5">
+                        <h2>Macbook-Pro</h2>
+                        <p>This is a smarter device on Hot Gadget. You can buy it to make your life productive, efficient, and easy. It will give you the best experience.</p>
+                        <h2>$4500</h2>
+                        <button class="buy-now">BUY NOW</button>
+                    </div>
+                    <div class="col-md-7">
+                        <img src="{% static 'images/banner-products/product-1.png' %}" class="d-block w-100" alt="Macbook Pro">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carousel Item 2 -->
+            <div class="carousel-item">
+                <div class="row align-items-center">
+                    <div class="col-md-5">
+                        <h2>Amazon Echo</h2>
+                        <p>This is an Amazon assistant device that helps make your life easier and more productive. It gives you the best experience compared to any other assistant.</p>
+                        <h2>$550</h2>
+                        <button class="buy-now">BUY NOW</button>
+                    </div>
+                    <div class="col-md-7">
+                        <img src="{% static 'images/banner-products/product-2.png' %}" class="d-block w-100" alt="Amazon Echo">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carousel Item 3 -->
+            <div class="carousel-item">
+                <div class="row align-items-center">
+                    <div class="col-md-5">
+                        <h2>Boom Boom Box</h2>
+                        <p>This is an excellent device for listening to music and enjoying your time. The sound quality is one of the best in the world and can instantly uplift your mood.</p>
+                        <h2>$1200</h2>
+                        <button class="buy-now">BUY NOW</button>
+                    </div>
+                    <div class="col-md-7">
+                        <img src="{% static 'images/banner-products/product-3.png' %}" class="d-block w-100" alt="Boom Boom Box">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+    </div>
+</div>
+
+<!-- SmartPhone Section -->
+<section id="smartphone" class="container my-5">
+    <h1 class="text-center mb-4">Smart Phone</h1>
+    <div class="row g-4">
+
+        <!-- Card 1 -->
+        <div class="col-md-4">
+            <div class="card shadow">
+                <img src="{% static 'images/phone/phone-1.png' %}" class="card-img-top" alt="iPhone 14 Pro-Max">
+                <div class="card-body">
+                    <h3 class="card-title">iPhone 14 Pro-Max</h3>
+                    <p class="card-text">Experience the future of mobile technology with the iPhone 14 Pro-Max. Designed for seamless performance and superior photography.</p>
+                    <button class="buy-now">BUY NOW</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-4">
+            <div class="card shadow">
+                <img src="{% static 'images/phone/phone-2.png' %}" class="card-img-top" alt="Samsung S20 Ultra">
+                <div class="card-body">
+                    <h3 class="card-title">Samsung S20 Ultra</h3>
+                    <p class="card-text">Unleash the power of innovation with Samsung S20 Ultra. A true leader in mobile technology and performance.</p>
+                    <button class="buy-now">BUY NOW</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4">
+            <div class="card shadow">
+                <img src="{% static 'images/phone/phone-3.png' %}" class="card-img-top" alt="Realme 15 Pro-max">
+                <div class="card-body">
+                    <h3 class="card-title">Realme 15 Pro-Max</h3>
+                    <p class="card-text">Affordable yet powerful. Realme 15 Pro-Max is your best choice for a budget-friendly performance beast.</p>
+                    <button class="buy-now">BUY NOW</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Laptop Section -->
+<section id="laptop" class="container my-5">
+    <h1 class="text-center mb-4">Laptop</h1>
+    <div class="row g-4">
+
+        <!-- Card 1 -->
+        <div class="col-md-4">
+            <div class="card shadow">
+                <img src="{% static 'images/laptop/laptop-1.png' %}" class="card-img-top" alt="ASUS UX-620 Ultra">
+                <div class="card-body">
+                    <h3 class="card-title">ASUS UX-620 Ultra</h3>
+                    <p class="card-text">Thin, lightweight, and powerful - the ASUS UX-620 Ultra is perfect for both work and play.</p>
+                    <button class="buy-now">BUY NOW</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-4">
+            <div class="card shadow">
+                <img src="{% static 'images/laptop/laptop-2.png' %}" class="card-img-top" alt="HP SD-555 Pro">
+                <div class="card-body">
+                    <h3 class="card-title">HP SD-555 Pro</h3>
+                    <p class="card-text">The HP SD-555 Pro offers unmatched reliability and power for your daily computing needs.</p>
+                    <button class="buy-now">BUY NOW</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4">
+            <div class="card shadow">
+                <img src="{% static 'images/laptop/laptop-3.png' %}" class="card-img-top" alt="Lenovo XX-675 Max">
+                <div class="card-body">
+                    <h3 class="card-title">Lenovo XX-675 Max</h3>
+                    <p class="card-text">Maximize your productivity and creativity with the Lenovo XX-675 Max, built for professionals.</p>
+                    <button class="buy-now">BUY NOW</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Categories Section -->
+<section class="category-section my-5">
+    <div class="container" id="categories">
+        
+        <div class="text-center mb-5">
+            <h1 class="categories-border">Categories</h1>
+        </div>
+
+        <div class="row">
+            <!-- Left Side Categories -->
+            <div class="col-md-6">
+                <div class="row g-4">
+
+                    <!-- Bag -->
+                    <div class="col-md-6 d-flex justify-content-center">
+                        <div class="card category-item">
+                            <img src="{% static 'images/Categories/bag.png' %}" class="card-img-top" alt="Bag">
+                            <h6 class="text-center">Bag</h6>
+                        </div>
+                    </div>
+
+                    <!-- Beauty -->
+                    <div class="col-md-6 d-flex justify-content-center">
+                        <div class="card category-item">
+                            <img src="{% static 'images/Categories/perfume.png' %}" class="card-img-top" alt="Beauty">
+                            <h6 class="text-center">Beauty</h6>
+                        </div>
+                    </div>
+
+                    <!-- Shoe -->
+                    <div class="col-md-6 d-flex justify-content-center">
+                        <div class="card category-item">
+                            <img src="{% static 'images/Categories/shoe.png' %}" class="card-img-top" alt="Shoe">
+                            <h6 class="text-center">Shoe</h6>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Right Side Image -->
+            <div class="col-md-6 d-flex align-items-center justify-content-center">
+                <img src="{% static 'images/Categories/pale-order.png' %}" class="img-fluid" alt="Pale Order">
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+  {% endblock content %}
+ 
