@@ -1,0 +1,21 @@
+ {% extends "base.html" %}
+
+{% block content %}
+ 
+<div class="container">
+    <h1 class="contact-header">Choose One for Change Password</h1>
+
+    <div class="row justify-content-center">
+        <div class="col-md-6 contact-card">
+            
+            <a class='btn btn-warning' href="{% url "changewithold" %}">Change password with old Password</a>
+           <a class='btn btn-warning' href="{% url "changewithoutold" %}">Change password without old Password</a> 
+         
+            
+
+        </div>
+    </div>
+</div>
+
+             
+{% endblock content %}

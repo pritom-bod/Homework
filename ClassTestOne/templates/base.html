@@ -43,6 +43,10 @@
               <li class="nav-item">
                 <a class="nav-link" href="{% url "contact" %}"><b>Contact</b></a>
               </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="{% url "changepass" %}"><b>Change Password</b></a>
+              </li>
             </ul>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -59,7 +63,10 @@
     {% endblock content %}
 
     <footer>
+
+      <a class='btn btn-outline-dark' href='{% url "login" %}'>Logout</a>
         <p class="text-center" style="color:white"> ©2025 Hot Gadgets Ltd. All rights reserved. </p>
+        
       </footer>
     
     
